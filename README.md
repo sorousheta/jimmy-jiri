@@ -2,7 +2,7 @@
 
 Here's a comprehensive README.md file generated from the content of the provided link. This file includes the full content of the link in Markdown format.
 
-```markdown
+
 # نصب و فعال سازی کلیه نرم افزارهای شرکت Atlassian بر روی داکر
 
 ## مقدمه
@@ -128,6 +128,6 @@ docker exec jira java -jar /atlassian-agent.jar -p <...> -m r.beigy@gmail.com -o
 امیدوارم این آموزش مفید بوده باشد و بتوانید از نرم‌افزارهای قدرتمند شرکت Atlassian نهایت استفاده را ببرید.
 
 [لینک اصلی](https://virgool.io/@r.beigy/نصب-و-فعال-سازی-کلیه-نرم-افزارهای-شرکت-atlassian-oclfipois9qk)
-```
+
 
 شما می‌توانید این فایل را ذخیره کرده و در محیط مورد نظر خود استفاده کنید.
