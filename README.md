@@ -1,8 +1,4 @@
 # jimmy-jiri
-
-Here's a comprehensive README.md file generated from the content of the provided link. This file includes the full content of the link in Markdown format.
-
-
 # نصب و فعال سازی کلیه نرم افزارهای شرکت Atlassian بر روی داکر
 
 ## مقدمه
@@ -32,11 +28,11 @@ docker-compose --version
 
 ابتدا مخزن گیت را کلون کنید:
 ```sh
-git clone https://github.com/beigi-reza/atlassian-software.git
+git clone https://github.com/sorousheta/jimmy-jiri.git
 ```
 وارد شاخه ایجاد شده شوید و شبکه Docker را ایجاد کنید:
 ```sh
-cd atlassian-software
+cd jimmy-jiri
 docker network create --driver bridge --subnet=150.50.50.0/24 my-net
 ```
 
@@ -85,35 +81,35 @@ docker-compose -f fisheye-compose.yml up -d
 2. از فرمان‌های زیر برای دریافت لایسنس استفاده کنید:
     - Jira
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p jira -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p jira -s <ServerID>
     ```
     - Jira Service Management
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p jsm -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p jsm -s <ServerID>
     ```
     - Confluence
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p conf -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p conf -s <ServerID>
     ```
     - Bitbucket
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p bitbucket -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p bitbucket -s <ServerID>
     ```
     - Bamboo
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p bamboo -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p bamboo -s <ServerID>
     ```
     - Fisheye
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p fisheye -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p fisheye -s <ServerID>
     ```
     - Crucible
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p crucible -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p crucible -s <ServerID>
     ```
     - Jira Core
     ```sh
-    docker exec jira java -jar /atlassian-agent.jar -d -m r.beigy@gmail.com -o reza-beigi -p js -s <ServerID>
+    docker exec jira java -jar /atlassian-agent.jar -d -m tetris.netblogger@gmail.com -o tetris -p js -s <ServerID>
     ```
 
 ## نصب و فعال‌سازی پلاگین‌ها
@@ -122,12 +118,8 @@ docker-compose -f fisheye-compose.yml up -d
 1. پلاگین را از سایت [marketplace.atlassian.com](https://marketplace.atlassian.com) دانلود کنید.
 2. فرمان زیر را اجرا کنید:
 ```sh
-docker exec jira java -jar /atlassian-agent.jar -p <...> -m r.beigy@gmail.com -o reza-beigi -s <ServerID>
+docker exec jira java -jar /atlassian-agent.jar -p <...> -m tetris.netblogger@gmail.com -o tetris -s <ServerID>
 ```
 
 امیدوارم این آموزش مفید بوده باشد و بتوانید از نرم‌افزارهای قدرتمند شرکت Atlassian نهایت استفاده را ببرید.
 
-[لینک اصلی](https://virgool.io/@r.beigy/نصب-و-فعال-سازی-کلیه-نرم-افزارهای-شرکت-atlassian-oclfipois9qk)
-
-
-شما می‌توانید این فایل را ذخیره کرده و در محیط مورد نظر خود استفاده کنید.
